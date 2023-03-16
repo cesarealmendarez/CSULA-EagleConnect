@@ -1,0 +1,97 @@
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+    } 
+
+    body {
+        background-color: white;
+    } 
+
+    .widget-container {
+        overflow-x: auto;
+        white-space: nowrap;
+        padding: 16px;
+    }
+
+    .event-item {
+        display: inline-block;
+        width: 300px;
+        height: 275px;
+        background-color: white;
+        position: relative;
+        border-radius: 14px;
+        margin-right: 16px;
+        border: 2px solid #AAA;
+        word-break: break-all; white-space: normal; 
+    }
+
+    .event-media-date-container {
+
+    }
+
+    .event-media {
+        height: 125px;
+        width: 300px;
+        object-fit: cover;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+
+    .event-date {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+    }
+
+    .event-date-month {
+        text-align: center;
+        background-color: #f5b43b;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 12px;
+        padding-left: 12px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    .event-date-day {
+        text-align: center;
+        background-color: white;
+        padding: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+</style>
+
+<div class="widget-container">
+    <ul>
+        <li class="event-item">
+            <div class="event-media-date-container">
+                <img 
+                    src="https://images.pexels.com/photos/13796993/pexels-photo-13796993.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
+                    class="event-media"
+                />
+
+                <div class="event-date">
+                    <div class="event-date-month">
+                        <p>MAR</p>
+                    </div>
+
+                    <div class="event-date-day">
+                        <h1>31</h1>
+                        <p>Sat</p>
+                    </div>
+                </div>
+            </div
+
+            <div style="width: 100%; word-wrap: break-word; padding: 8px; ">
+                <h1 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Letter of Hope</h1>
+                <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                <a>
+                    <p>Register</p>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
